@@ -17,10 +17,6 @@ public class ButtonPanel {
         this.scanner = new Scanner(System.in);
     }
 
-    /*
-     * Get the next request from the button panel
-     * @return the next request, or -1 if no request is available
-     */
     public Integer getRequest() {
         try {
             // Check if input is available without blocking
